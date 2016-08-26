@@ -1,0 +1,124 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  font-family: terminal;
+}
+
+.nav a:hover {
+  color: teal;
+}
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://thedude.com/images2/oakland_night_skyline_web.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.current {
+    background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.current .container {
+  position: relative;
+  top: 85px;
+}
+
+.current h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.aboutMe {
+    background-image:url('http://upload.wikimedia.org/wikipedia/commons/a/ab/Night_Panorama_of_Golden_Gate_Bridge.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutMe .container {
+  position: relative;
+  top: 85px;
+  
+}
+
+.aboutMe h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:75px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.jumbotron p {
+  font-family: arial;
+  font-size: 20px;
+  color: #fff;
+  text-align: right;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+  color: #393c3d;
+  font-size: 24px;
+}
+
+.neighborhood-guides p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.thumbnail img {
+   width: 350px;
+   height: 250px;
+}
+
+.row .col-md-4 li{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+.row .col-md-4 p {
+    padding-left: 20px;
+}

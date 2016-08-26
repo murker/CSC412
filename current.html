@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>About Me</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">  
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="site.css">
+
+    </head>
+
+    <body>
+
+        <div class="nav">
+            <div class="container">
+                <div class="navBarColor">
+                    <ul class="pull-left">
+                        <li><a href="http://thecity.sfsu.edu/~mgarde/index.html">Home</a></li>
+                        <li><a href="http://thecity.sfsu.edu/~mgarde/about.html">About</a></li>
+                        <li><a href="http://thecity.sfsu.edu/~mgarde/current.html">Works Done</a></li>
+                    </ul>
+                </div>          
+            </div>
+        </div>
+
+        <div class="current">
+            <div class="container">
+                <h1>Works Done</h1>
+            </div>
+        </div> 
+
+        <div class="neighborhood-guides">
+            <div class="container">
+                <h2>Any code snippets?</h2>  
+                
+                <i style="float:right; font-size:20px">"To do good work, love what you do"</i>
+                <p>Below I provided some example codes</p>     
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>PHP In Action</h2>
+                        <form action="action_page.php" method="post">
+                            First name:<br>
+                            <input type="text" name="firstname" value="">
+                            <br>
+                            Last name:<br>
+                            <input type="text" name="lastname" value="">
+                            <br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Example 1</h2>
+                        <p>The following program obtains a fraction and does the following: add, sub, mult, div, reduce to lowest terms</p>
+                        <a href="http://pastebin.com/d26Cah7A">Program 1 Example</a>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Javascript In Action</h2>
+                        <button type="button"
+                                onclick="document.getElementById('demo').innerHTML = Date()">
+                            This is a Javascript button that displays the time!</button>
+                        <p></p>
+                        <p id="demo"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Example 2</h2>
+                        <p>The following program is the classic, list expression evaluator.</p>
+                        <a href="http://pastebin.com/SKBpdXfL">Program 2 Example</a><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
